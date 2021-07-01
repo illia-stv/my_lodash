@@ -4,7 +4,7 @@ function print(val){
 
 
 function chunk(arr, int = 1){
-  if(int == 0) return []
+  if(int <= 0) return []
 
   let my_new_arr = [];
   
