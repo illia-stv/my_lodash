@@ -3,7 +3,7 @@ function print(val){
 }
 
 
-function chunk(arr, int){
+function chunk(arr, int = 1){
   if(int == 0) return []
 
   let my_new_arr = [];
@@ -19,4 +19,3 @@ function chunk(arr, int){
   return my_new_arr
 }
 
-print(chunk([1,2,3,4,5], 3))
