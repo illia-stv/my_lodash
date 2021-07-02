@@ -1,6 +1,3 @@
-function print(val){
-  console.log(val)
-}
 
 
 function chunk(arr, int = 1){
@@ -13,7 +10,6 @@ function chunk(arr, int = 1){
   }
  
   for(let i = 0; i < arr.length; i++){
-    // print(arr[i])
     my_new_arr[Math.ceil((i+1)/int)-1].push(arr[i])
   }
   return my_new_arr
